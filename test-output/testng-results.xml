@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54049" started-at="2020-05-02T16:13:54Z" finished-at="2020-05-02T16:14:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54049" started-at="2020-05-02T16:13:54Z" finished-at="2020-05-02T16:14:48Z">
+      <class name="TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@5649fd9b]" name="setUpClass" is-config="true" duration-ms="313" started-at="2020-05-02T16:13:54Z" finished-at="2020-05-02T16:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@5649fd9b]" name="feature" duration-ms="27513" started-at="2020-05-02T16:13:54Z" data-provider="features" finished-at="2020-05-02T16:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Youtube search positive scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Youube search validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@5649fd9b]" name="feature" duration-ms="25226" started-at="2020-05-02T16:14:22Z" data-provider="features" finished-at="2020-05-02T16:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Youtube search positive scenarios"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Youube search validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@5649fd9b]" name="tearDownClass" is-config="true" duration-ms="52" started-at="2020-05-02T16:14:48Z" finished-at="2020-05-02T16:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
