@@ -28,14 +28,16 @@ public class YoutubeSearch extends ExtentReportsListener{
 	static public WebDriver driver;
 	FileReader obj= new FileReader();  
 	static YoutubeSearchPage ysp;
+//	public  ExtentTest test=null;
     
 	@Given("^open chrome and enter URL and search \"(.*?)\"$")
 	public void open_chrome_browser_and_enter_url(String search) throws Throwable 
-	{
+	{	
+		extent = setUp();
 		ExtentTest logInfo = null;
 		try {
-		test = extent.createTest(Feature.class, "Youtube search");
-		test = test.createNode(Scenario.class, "Yooutube search");
+		test = extent.createTest(Feature.class, "YoutubeSearch");
+		test = test.createNode(Scenario.class, "YoutubeSearch");
 		logInfo = test.createNode(new GherkinKeyword("Given"), "open chrome and enter URL and search");
 		driver = BaseClass.OpenBrowser(driver);
 		ysp= new YoutubeSearchPage(driver);
